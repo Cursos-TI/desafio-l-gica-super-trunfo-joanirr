@@ -146,10 +146,10 @@ printf("====== DADOS DA SEGUNDA CARTA ======\n");
     //DENSIDADE POPULACIONAL
 
     if (densidade1 < densidade2){ 
-        printf("Densidade populacional: %s é o vencedor! (%.3f hab/km²)\n", cidade1, densidade1);
+        printf("Densidade populacional: %s é o vencedor, com menor densidade populacional! (%.3f hab/km²)\n", cidade1, densidade1);
 
     }else { 
-        printf("Densidade populacional: %s é o vencedor! (%.3f hab/km²)\n", cidade2, densidade2);
+        printf("Densidade populacional: %s é o vencedor, com menor densidade populacional! (%.3f hab/km²)\n", cidade2, densidade2);
     }
 
     //PIB PER CAPITA
